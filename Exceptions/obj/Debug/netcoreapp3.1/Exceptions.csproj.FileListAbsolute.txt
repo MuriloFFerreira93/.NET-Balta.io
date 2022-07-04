@@ -1,0 +1,14 @@
+C:\Dev\.NET-Balta.io\Exceptions\bin\Debug\netcoreapp3.1\Exceptions.exe
+C:\Dev\.NET-Balta.io\Exceptions\bin\Debug\netcoreapp3.1\Exceptions.deps.json
+C:\Dev\.NET-Balta.io\Exceptions\bin\Debug\netcoreapp3.1\Exceptions.runtimeconfig.json
+C:\Dev\.NET-Balta.io\Exceptions\bin\Debug\netcoreapp3.1\Exceptions.runtimeconfig.dev.json
+C:\Dev\.NET-Balta.io\Exceptions\bin\Debug\netcoreapp3.1\Exceptions.dll
+C:\Dev\.NET-Balta.io\Exceptions\bin\Debug\netcoreapp3.1\Exceptions.pdb
+C:\Dev\.NET-Balta.io\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.csproj.AssemblyReference.cache
+C:\Dev\.NET-Balta.io\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\.NET-Balta.io\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.AssemblyInfoInputs.cache
+C:\Dev\.NET-Balta.io\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.AssemblyInfo.cs
+C:\Dev\.NET-Balta.io\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.csproj.CoreCompileInputs.cache
+C:\Dev\.NET-Balta.io\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.dll
+C:\Dev\.NET-Balta.io\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.pdb
+C:\Dev\.NET-Balta.io\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.genruntimeconfig.cache
