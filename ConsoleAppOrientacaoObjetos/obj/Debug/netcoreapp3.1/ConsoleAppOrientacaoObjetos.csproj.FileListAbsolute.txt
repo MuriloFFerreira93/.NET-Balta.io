@@ -1,0 +1,14 @@
+C:\Dev\.NET-Balta.io\ConsoleAppOrientacaoObjetos\bin\Debug\netcoreapp3.1\ConsoleAppOrientacaoObjetos.exe
+C:\Dev\.NET-Balta.io\ConsoleAppOrientacaoObjetos\bin\Debug\netcoreapp3.1\ConsoleAppOrientacaoObjetos.deps.json
+C:\Dev\.NET-Balta.io\ConsoleAppOrientacaoObjetos\bin\Debug\netcoreapp3.1\ConsoleAppOrientacaoObjetos.runtimeconfig.json
+C:\Dev\.NET-Balta.io\ConsoleAppOrientacaoObjetos\bin\Debug\netcoreapp3.1\ConsoleAppOrientacaoObjetos.runtimeconfig.dev.json
+C:\Dev\.NET-Balta.io\ConsoleAppOrientacaoObjetos\bin\Debug\netcoreapp3.1\ConsoleAppOrientacaoObjetos.dll
+C:\Dev\.NET-Balta.io\ConsoleAppOrientacaoObjetos\bin\Debug\netcoreapp3.1\ConsoleAppOrientacaoObjetos.pdb
+C:\Dev\.NET-Balta.io\ConsoleAppOrientacaoObjetos\obj\Debug\netcoreapp3.1\ConsoleAppOrientacaoObjetos.csproj.AssemblyReference.cache
+C:\Dev\.NET-Balta.io\ConsoleAppOrientacaoObjetos\obj\Debug\netcoreapp3.1\ConsoleAppOrientacaoObjetos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\.NET-Balta.io\ConsoleAppOrientacaoObjetos\obj\Debug\netcoreapp3.1\ConsoleAppOrientacaoObjetos.AssemblyInfoInputs.cache
+C:\Dev\.NET-Balta.io\ConsoleAppOrientacaoObjetos\obj\Debug\netcoreapp3.1\ConsoleAppOrientacaoObjetos.AssemblyInfo.cs
+C:\Dev\.NET-Balta.io\ConsoleAppOrientacaoObjetos\obj\Debug\netcoreapp3.1\ConsoleAppOrientacaoObjetos.csproj.CoreCompileInputs.cache
+C:\Dev\.NET-Balta.io\ConsoleAppOrientacaoObjetos\obj\Debug\netcoreapp3.1\ConsoleAppOrientacaoObjetos.dll
+C:\Dev\.NET-Balta.io\ConsoleAppOrientacaoObjetos\obj\Debug\netcoreapp3.1\ConsoleAppOrientacaoObjetos.pdb
+C:\Dev\.NET-Balta.io\ConsoleAppOrientacaoObjetos\obj\Debug\netcoreapp3.1\ConsoleAppOrientacaoObjetos.genruntimeconfig.cache
