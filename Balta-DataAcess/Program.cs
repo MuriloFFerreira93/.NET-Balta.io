@@ -5,76 +5,74 @@ using Balta_DataAcess.MODELS;
 
 namespace Balta_DataAcess
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
             //const string connectionString = "Server=localhost,1433;Database=balta;User ID=sa;Password=1q2w3e4r@#$;Trusted_Connection=False; TrustServerCertificate=True;";
 
 
-//                                                                      USANDO O Microsoft.Data.SqlClient;
-////-- Criar Conexão, abrir e fechar:
+            //                                                                      USANDO O Microsoft.Data.SqlClient;
+            ////-- Criar Conexão, abrir e fechar:
 
-//        //Conexão com banco, sempre abre e fecha
-//            var connection = new SqlConnection(connectionString);
-//            connection.Open();
-//        //Comandos
-//            connection.Close();
+            //        //Conexão com banco, sempre abre e fecha
+            //            var connection = new SqlConnection(connectionString);
+            //            connection.Open();
+            //        //Comandos
+            //            connection.Close();
 
-//        //Dispose fecha e destroi a conexão. É necessário dar um new SqlConnection() para instanciar novamente
-//            connection.Dispose();
-
-
-//        //Uma alternativa melhor é usar o using que irá dar o dispose no fim
-//            using (var connection2 = new SqlConnection(connectionString))
-//            {
-//                connection2.Open();
-//                //Comandos
-//            }
+            //        //Dispose fecha e destroi a conexão. É necessário dar um new SqlConnection() para instanciar novamente
+            //            connection.Dispose();
 
 
-////-- Usando a conexão
-//            using (var connection3 = new SqlConnection(connectionString))
-//            {
-//                connection3.Open();
-
-//                using (var command = new SqlCommand())
-//                {
-//                    command.Connection = connection3;
-//                    command.CommandType = System.Data.CommandType.Text;
-//                    command.CommandText = "SELECT [Id], [Title] FROM [Category]";
-                    
-//                //.ExecuteReader para busca.
-//                //.ExecuteNonQuery ou scalar para insert/update/delete
-
-//                    using (var reader = command.ExecuteReader())
-//                    {
-//                        while (reader.Read())
-//                        {
-//                            Console.WriteLine
-//                                (
-//                                    $"{reader.GetGuid(0)}" +
-//                                    " - " +
-//                                    $" {reader.GetString(1)}"
-//                                );
-//                        }
-//                    } 
-
-//                }
-//            }
+            //        //Uma alternativa melhor é usar o using que irá dar o dispose no fim
+            //            using (var connection2 = new SqlConnection(connectionString))
+            //            {
+            //                connection2.Open();
+            //                //Comandos
+            //            }
 
 
-//                                                                           DAPPER
-            const string connectionString = "Server=localhost,1433;Database=balta;User ID=sa;Password=1q2w3e4r@#$;Trusted_Connection=False; TrustServerCertificate=True;";
- 
-            using (var connection = new SqlConnection(connectionString))
+            ////-- Usando a conexão
+            //            using (var connection3 = new SqlConnection(connectionString))
+            //            {
+            //                connection3.Open();
+
+            //                using (var command = new SqlCommand())
+            //                {
+            //                    command.Connection = connection3;
+            //                    command.CommandType = System.Data.CommandType.Text;
+            //                    command.CommandText = "SELECT [Id], [Title] FROM [Category]";
+
+            //                //.ExecuteReader para busca.
+            //                //.ExecuteNonQuery ou scalar para insert/update/delete
+
+            //                    using (var reader = command.ExecuteReader())
+            //                    {
+            //                        while (reader.Read())
+            //                        {
+            //                            Console.WriteLine
+            //                                (
+            //                                    $"{reader.GetGuid(0)}" +
+            //                                    " - " +
+            //                                    $" {reader.GetString(1)}"
+            //                                );
+            //                        }
+            //                    } 
+
+            //                }
+            //            }
+
+
+            //                                                                           DAPPER
+
+            using (var connection = Database.Connection)
             {
                 ListCategories(connection);
                 //CreateCategory(connection);
                 UpdateCategory(connection);
             }
         }
-
         static void ListCategories(SqlConnection connection)
         {
             //Executa query atribuindo uma lista(retorno do select) ao objeto category(Tabela do abnco)
@@ -86,11 +84,8 @@ namespace Balta_DataAcess
                     ($"{item.Id} - {item.Title}");
             }
         }
-        
         static void CreateCategory(SqlConnection connection)
         {
-            const string connectionString = "Server=localhost,1433;Database=balta;User ID=sa;Password=1q2w3e4r@#$;Trusted_Connection=False; TrustServerCertificate=True;";
-
             var category = new Category();
             category.Id = Guid.NewGuid();
             category.Title = "Amazon aws";
@@ -128,8 +123,7 @@ namespace Balta_DataAcess
             });
             
             Console.WriteLine($"{rows} linhas inseridas");
-        }
-    
+        }    
         static void UpdateCategory(SqlConnection connection)
         {
             var updateCategory = @"
@@ -148,7 +142,6 @@ namespace Balta_DataAcess
 
             Console.WriteLine($"{rows} linhas atualizadas");
         }
-
         static void DeleteCategory(SqlConnection connection)
         {
             var deleteCategory = @"
