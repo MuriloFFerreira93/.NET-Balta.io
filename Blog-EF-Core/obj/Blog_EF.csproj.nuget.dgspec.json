@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\.NET-Balta.io\\Blog_EF\\Blog_EF.csproj": {}
+    "C:\\Dev\\.NET-Balta.io\\Blog-EF-Core\\Blog_EF.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\.NET-Balta.io\\Blog_EF\\Blog_EF.csproj": {
+    "C:\\Dev\\.NET-Balta.io\\Blog-EF-Core\\Blog_EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\.NET-Balta.io\\Blog_EF\\Blog_EF.csproj",
+        "projectUniqueName": "C:\\Dev\\.NET-Balta.io\\Blog-EF-Core\\Blog_EF.csproj",
         "projectName": "Blog_EF",
-        "projectPath": "C:\\Dev\\.NET-Balta.io\\Blog_EF\\Blog_EF.csproj",
+        "projectPath": "C:\\Dev\\.NET-Balta.io\\Blog-EF-Core\\Blog_EF.csproj",
         "packagesPath": "C:\\Users\\Murilo\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\.NET-Balta.io\\Blog_EF\\obj\\",
+        "outputPath": "C:\\Dev\\.NET-Balta.io\\Blog-EF-Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

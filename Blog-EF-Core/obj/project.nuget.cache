@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BeLbZsa53q07r/+jjNzMJ350AnL4BWXSG4JL6nGj2rWWnfiWmR4jBF/qLZvRN18ljI6Dxu1+/hwvHhJttW6/cA==",
+  "dgSpecHash": "7AlTIUJ+Bnkd3EA3PCUOS7f8AnE7vCpK4V1r70mrsqClWK7quXDTRkiNXraebaRZeu0cTxU6EV0reSzE3SxzYg==",
   "success": true,
-  "projectFilePath": "C:\\Dev\\.NET-Balta.io\\Blog_EF\\Blog_EF.csproj",
+  "projectFilePath": "C:\\Dev\\.NET-Balta.io\\Blog-EF-Core\\Blog_EF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Murilo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Murilo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
